@@ -17,6 +17,10 @@ export class Button extends Widget {
       movable: false,
       clickable: true,
 
+      image: '',
+      color: 'black',
+      svgReplaces: {},
+      
       text: '',
       clickRoutine: [],
       debug: false
